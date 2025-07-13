@@ -30,6 +30,20 @@ header p {
     color: #8d6e63; /* 중간 톤의 갈색 */
 }
 
+.intro-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fdf5e6; /* 연한 베이지 배경 */
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.intro-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #5d4037;
+}
+
 main h2 {
     text-align: center;
     color: #d2691e;
@@ -72,6 +86,26 @@ main h2 {
 
 .photo-grid img:hover {
     transform: scale(1.05);
+}
+
+.letter-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.letter-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #d2691e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.letter-button:hover {
+    background-color: #a0522d;
 }
 
 footer {
