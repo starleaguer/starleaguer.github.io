@@ -47,7 +47,8 @@ main h2 {
     margin-bottom: 40px;
 }
 
-.video-container iframe {
+.video-container iframe,
+.video-container video {
     position: absolute;
     top: 0;
     left: 0;
